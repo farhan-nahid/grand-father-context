@@ -1,5 +1,5 @@
 import React from 'react';
-import Special from '../Spacial/Special';
+import Special from '../Spacial/Spacial';
 
 const MySelf = (props) => {
   const { house } = props;
