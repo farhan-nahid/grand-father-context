@@ -11,7 +11,6 @@ function App() {
     <RingContext.Provider value={[ornaments, house]}>
       <div className='App'>
         <button onClick={() => setHouse(house + 1)}>Buy a new house</button>
-
         <GrandFather house={house}></GrandFather>
       </div>
     </RingContext.Provider>
